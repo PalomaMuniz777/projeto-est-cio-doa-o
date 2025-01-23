@@ -1,68 +1,94 @@
-# Configurações Gerais de Estilo (CSS)
-
-Este arquivo de CSS foi criado para fornecer uma interface clara, amigável e moderna para o projeto. Ele utiliza a fonte "Poppins" e um esquema de cores que equilibra tons de azul e branco para uma aparência profissional.
-
-## Estrutura e Propósito
-
-### 1. **Body**
-- Define a fonte padrão do projeto como `'Poppins', sans-serif`.
-- Configura margens e padding zerados para evitar inconsistências.
-- Estabelece o fundo como `#f0f8ff` (azul claro) e o texto em cor `#333` (cinza escuro).
-
-### 2. **Títulos (h1, h2)**
-- Centralizados para melhor foco.
-- `h2` utiliza um tom azul mais escuro (`#007BFF`) para destacar sub-seções.
-
-### 3. **Cabeçalho (Header)**
-- Fundo azul (`#007BFF`) com texto branco.
-- Inclui sombra leve para dar profundidade ao design.
-- O título no cabeçalho (`h1`) utiliza peso de fonte 600 para destaque.
-
-### 4. **Seções Principais**
-#### .main
-- Centraliza o conteúdo com padding e largura máxima de 800px.
-
-#### .form-section e .list-section
-- Fundo branco com bordas arredondadas para um layout limpo.
-- Sombra sutil para um visual elevado.
-
-### 5. **Formulários**
-#### .form
-- Estrutura flexível, com espaçamento de 15px entre elementos.
-
-#### .form-group
-- Cada grupo do formulário é organizado verticalmente.
-
-#### Campos de Entrada (Input)
-- Campos com padding de 10px e bordas arredondadas.
-- Foco nos inputs é realçado com borda azul e sombra.
-
-#### Botão (.btn)
-- Fundo azul com texto branco, bordas arredondadas e efeito de transição ao passar o mouse.
-- Cor do botão muda para azul mais escuro ao interagir.
-
-### 6. **Lista de Arrecadações**
-#### .arrecadacoes-list
-- Lista sem marcador, organizada para exibição limpa.
-
-#### Itens da Lista (.arrecadacoes-list li)
-- Fundo cinza claro com bordas arredondadas.
-- Espaço flexível para alinhar itens e ações.
-
-### 7. **Rodapé (.footer)**
-- Fundo azul claro com texto centralizado.
-- Fonte reduzida para diferenciação visual do conteúdo principal.
-
-## Estilo Geral
-- **Cores primárias:** Azul (`#007BFF`) e branco (`#FFFFFF`).
-- **Cores secundárias:** Cinza (`#333` para texto, `#555` para rodapé).
-- **Fonte:** `'Poppins', sans-serif`.
-
-## Melhorias Futuais
-- Adicionar responsividade para dispositivos móveis.
-- Introduzir variáveis CSS para facilitar a manutenção de cores e fontes.
-- Incluir animações para transições de elementos interativos.
+Aqui está o modelo de README para o projeto:  
 
 ---
 
-Este arquivo CSS foi projetado para ser escalável e fácil de manter, garantindo uma experiência de usuário agradável e consistente.
+# **Projeto de Arrecadação de Alimentos e Roupas**
+
+## **Descrição do Projeto**
+Este projeto tem como objetivo organizar uma campanha de arrecadação de alimentos e roupas para atender famílias em situação de vulnerabilidade na comunidade do bairro **Vila Esperança**. Utilizamos a metodologia ágil SCRUM para garantir eficiência nas etapas de planejamento, execução e avaliação do projeto.  
+
+---
+
+## **1. Diagnóstico e Teorização**  
+
+### **1.1 Identificação das Partes Envolvidas e Parceiros**  
+- **Comunidade-alvo:**  
+  - Perfil socioeconômico: Famílias de baixa renda, com média salarial de até dois salários mínimos.  
+  - Escolaridade: Ensino fundamental e médio incompletos.  
+  - Gênero e faixa etária: Predominância feminina (60%), com idade média entre 25 e 50 anos.  
+  - Estimativa de participantes: Cerca de 10 famílias.  
+- **Parceiros:** Pequenos comerciantes, igrejas, escolas e ONGs locais.  
+- **Voluntários:** Estudantes da faculdade local e moradores engajados na campanha.  
+
+### **1.2 Situação-problema**  
+A comunidade enfrenta:  
+- Insegurança alimentar e falta de vestuário adequado, especialmente no inverno.  
+- Dependência de doações esporádicas e desorganizadas.  
+- Problemas logísticos na distribuição equitativa dos recursos.  
+
+### **1.3 Demanda Sociocomunitária e Motivação Acadêmica**  
+- A vulnerabilidade impacta diretamente a qualidade de vida, autoestima e saúde da comunidade.  
+- O projeto conecta teoria e prática, aplicando conceitos de SCRUM para estruturar o processo e promover maior envolvimento comunitário.  
+
+### **1.4 Objetivos**  
+- Atender pelo menos 15 famílias com alimentos e roupas.  
+- Criar um cronograma eficiente baseado em SCRUM.  
+- Garantir distribuição justa e organizada de 100% dos itens arrecadados.  
+
+---
+
+## **2. Planejamento e Execução**  
+
+### **2.1 Cronograma das Atividades**  
+
+| **Ação**            | **Quando Fazer** | **Como Fazer**                             | **Para Quem**          | **Onde**                   |  
+|----------------------|------------------|--------------------------------------------|------------------------|---------------------------|  
+| Divulgação           | Semana 1        | Cartazes e redes sociais                   | Comunidade e parceiros | Redes sociais e igrejas   |  
+| Arrecadação de Itens | Semana 2        | Pontos de coleta em mercados e escolas     | Comunidade             | Pontos de coleta locais   |  
+| Organização          | Semana 3        | Triagem e separação dos itens arrecadados  | Voluntários            | Escola comunitária        |  
+| Distribuição         | Semana 4        | Entrega às famílias cadastradas            | Famílias cadastradas   | Igreja local              |  
+| Avaliação            | Semana 5        | Coleta de feedback e análise de resultados | Comunidade             | Reunião presencial        |  
+
+### **2.2 Envolvimento da Comunidade**  
+- Participação ativa em reuniões de planejamento.  
+- Contribuição com doações e voluntariado.  
+- Identificação das famílias mais necessitadas.  
+- Avaliação do impacto do projeto por meio de entrevistas e feedbacks.  
+
+---
+
+## **3. Avaliação dos Resultados**  
+
+### **3.1 Indicadores de Sucesso**  
+- **Quantitativos:**  
+  - Quantidade de alimentos e roupas arrecadados.  
+  - Número de famílias beneficiadas.  
+- **Qualitativos:**  
+  - Feedback dos beneficiários e parceiros sobre eficiência e impacto.  
+
+### **3.2 Resultados Esperados**  
+- Melhor organização das doações.  
+- Maior satisfação da comunidade com o processo.  
+
+---
+
+## **4. Encerramento do Projeto**  
+
+### **4.1 Relato da Experiência**  
+O projeto conectou teoria à prática de forma enriquecedora. A aplicação do SCRUM trouxe organização e eficiência, enquanto o envolvimento comunitário aumentou a confiança e a solidariedade entre os moradores.  
+
+### **4.2 Evidências das Atividades**  
+- Criação de pontos de coleta em mercados locais.  
+- Registro fotográfico da triagem e entrega dos itens.  
+- Relatórios de feedback dos beneficiários.  
+
+---
+
+## **Contribuições e Licença**  
+Sinta-se à vontade para contribuir com o projeto! Este repositório está aberto para melhorias e colaborações.  
+
+**Licença:** Este projeto é distribuído sob a licença MIT.  
+
+--- 
+
+Se precisar de ajustes ou personalizações, posso ajudar! 😊
