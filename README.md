@@ -1,6 +1,3 @@
-Aqui está o modelo de README para o projeto:  
-
----
 
 # **Projeto de Arrecadação de Alimentos e Roupas**
 
@@ -91,4 +88,4 @@ Sinta-se à vontade para contribuir com o projeto! Este repositório está abert
 
 --- 
 
-Se precisar de ajustes ou personalizações, posso ajudar! 😊
+Paloma Muniz Mendes
